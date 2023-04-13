@@ -1,24 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 09.04.2023 21:36:14
-// Design Name: 
-// Module Name: reset
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module reset(
 	input [9:0]x,y,
@@ -45,6 +25,7 @@ module reset(
 	   .en(en),
 	   .disp(dispe1)
    );
+   
    S letters(
 	   .x(x),
 	   .y(y),
